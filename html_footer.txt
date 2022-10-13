@@ -1,0 +1,67 @@
+<footer>
+  <ul class="footer-icons">
+    <li class="footer-icons__item"><img src="" alt="Facebook"></li>
+    <li class="footer-icons__item"><img src="" alt="Twitter"></li>
+    <li class="footer-icons__item"><img src="" alt="Linkedin"></li>
+    <li class="footer-icons__item"><img src="" alt="Pinterest"></li>
+    <li class="footer-icons__item"><img src="" alt="Instagram"></li>
+    <li class="footer-icons__item"><img src="" alt="GitHub"></li>
+    <li class="footer-icons__item"><img src="" alt="RCC"></li>
+  </ul>
+  <div class="copyright">© 2015 Axure Themes</div>
+</footer>
+
+footer {
+  weight: 1510px;
+  height: 164px;
+  margin: 0 auto;
+}
+
+li .footer-icons__item {
+   list-style-type: none;
+}
+
+Еще можно попробовать:
+
+li .footer-icons__item {
+   display: inline-block;
+}
+
+.copyright {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+-----------------------------------------------------------------------------
+<div class="main">
+  <div class="container">
+    <div class="tab">
+      <div class="tab__one">TAB 1</div>
+      <div class="tab__two">TAB 2</div>
+      <div class="tab__three">TAB 3</div>
+    </div>
+    <div class="text">
+      <h3 class="text__title">Tabs with soft transitioning effect.</h3>
+      <h5 class="text__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+		bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+		justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+		penatibus et magnis dis parturient montes.
+
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+		bibendum laoreet.</h5>
+      <div class="text__button">
+        <button name="button">Download</button>
+      </div>
+    </div>
+    <div class="image">
+      <div class="image__foto"><img src="../" alt="Freedom"></div>
+    </div>
+  </div>
+</div>
