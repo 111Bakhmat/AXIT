@@ -33,7 +33,7 @@ body {
 div .line {
     width: 170px;
     height: 0;
-    border: 1px solid #EC7979;
+    border-bottom: 1px solid #EC7979;
     margin: 0 auto;
 }
 
