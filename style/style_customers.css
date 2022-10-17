@@ -1,0 +1,120 @@
+.customers {
+    height: 694px;
+}
+
+.customers-page {
+    width: 1170px;
+    height: 694px;
+    margin: 50px auto 0;
+}
+
+.customers-header {
+    width: 1170px;
+    height: 294px;
+}
+
+.customers-header__title {
+    width: 1170px;
+    height: 150px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.customers-header__line {
+    width: 170px;
+    height: 0;
+    border-bottom: 1px solid #EC7979;
+    margin: 0 auto;
+}
+
+.customers-header__subtitle {
+    width: 1169px;
+    height: 21px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+}
+
+.customers-block {
+    width: 1169px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customers-block-1, .customers-block-2, .customers-block-3 {
+    width: 370px;
+    height: 400px;
+}
+
+.customers-block-1__rewiew, .customers-block-2__rewiew, .customers-block-3__rewiew {
+    width: 370px;
+    height: 180px;
+    background: #E2E2E2;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+}
+
+.customers-block-1__poligon, .customers-block-2__poligon, .customers-block-3__poligon {
+    width: 370px;
+    height: 66px;
+    position: relative;
+    left: 70px;
+}
+
+.customers-block-1__person, .customers-block-2__person, .customers-block-3__person {
+    width: 370px;
+    height: 70px;
+    display: flex;
+}
+
+.customers-block-1__avatar, .customers-block-2__avatar, .customers-block-3__avatar {
+    width: 70px;
+    height: 70px;
+}
+
+.customers-block-1__name, .customers-block-2__name, .customers-block-3__name {
+    width: 269px;
+    height: 54px;
+    margin-left: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.customers-block-1__job, .customers-block-2__job, .customers-block-3__job {
+    width: 269px;
+    height: 54px;
+    margin-left: 100px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
