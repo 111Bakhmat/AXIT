@@ -1,0 +1,88 @@
+
+.banner-down {
+	position: relative;
+	height: 442px;
+	/* width: 100%; */
+	background: url(../images/image_banner_down.svg) 0px 0px no-repeat;
+	background-size: cover;
+	z-index: 5;
+}
+.banner-down:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background-color:rgba(0, 0, 0, .5);
+}
+
+.banner-down-page {
+    width: 1170px;
+    height: 342px;
+    margin: 0 auto;
+}
+
+.banner-down-header {
+    width: 1170px;
+    height: 211px;
+}
+
+.banner-down-header__title {
+    width: 1170px;
+    height: 150px;
+	padding-top: 50px;
+    font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.banner-down-header__line {
+    width: 170px;
+    height: 0;
+    border-bottom: 1px solid #FFFFFF;
+    margin: 0 auto;
+}
+
+.banner-down-header__subtitle {
+    width: 1169px;
+    height: 21px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+    color: #FFFFFF;
+}
+
+.banner-down-header-button {
+    width: 370px;
+    height: 58px;
+    margin: 73px auto 50px;
+}
+
+.banner-down-header-button__download {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+	background: none;
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+}

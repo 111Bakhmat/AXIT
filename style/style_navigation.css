@@ -1,0 +1,39 @@
+.navigation {
+    height: 75px;
+	background: #000000;
+}
+
+.navigation-page {
+	width: 1170px;
+    height: 75px;
+    margin: 0 auto;
+	display: flex;
+}
+
+.navigation-page__logo {
+	width: 568px;
+    height: 75px;
+	margin-right: 55px;
+}
+
+.navigation-page__ref {
+	text-decoration: none;
+	background: none;
+	color: #FFFFFF;
+}
+
+.navigation-page__item {
+	width: 114px;
+    height: 75px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* text-align: center; */
+	text-transform: capitalize;
+	color: #FFFFFF;
+}
