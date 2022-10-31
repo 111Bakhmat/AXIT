@@ -18,7 +18,7 @@ body {
     height: 211px;
 }
 
-.pricing-header__title {
+.pricing-header .pricing-header__title {
     width: 1170px;
     height: 150px;
     font-family: 'Raleway';
@@ -77,9 +77,9 @@ body {
     font-size: 24px;
     line-height: 33px;
     color: #FFFFFF;
+    text-align: center;
     display: table-cell;
     vertical-align: middle;
-    text-align: center;
     text-transform: capitalize;
 }
 
@@ -129,4 +129,35 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 1325px) {
+    .content-page,
+    .pricing-header,
+    .pricing-header__title,
+    .pricing-header__subtitle {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1185px) {
+    .options {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pricing,
+    .content-page {
+        height: auto;
+    }
+    .options-basic,
+    .options-optima,
+    .options-pro {
+        margin-bottom: 27px;
+    }
+    .options-optima {
+        align-self: center;
+    }
 }

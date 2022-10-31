@@ -2,10 +2,6 @@ body {
     margin: 0;
 }
 
-.screen {
-    /* height: 100vh; */
-}
-
 .container {
     width: 1170px;
     height: 715px;
@@ -78,4 +74,28 @@ div .line {
     font-weight: 400;
     font-size: 18px;
     color: #000000;
+}
+
+@media screen and (max-width: 1325px) {
+    .container {
+        width: 100%;
+    }
+    .header, .header__title, .container__text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .main {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        height: auto;
+    }
+    .box-item:last-child {
+        margin-bottom: 50px;
+    }
 }
