@@ -6,6 +6,10 @@
 	background: url(../images/image_banner_down.svg) 0px 0px no-repeat;
 	background-size: cover;
 	z-index: 5;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
 }
 .banner-down:before {
 	content: '';
@@ -32,7 +36,7 @@
     height: 211px;
 }
 
-.banner-down-header__title {
+.banner-down-header .banner-down-header__title {
     width: 1170px;
     height: 150px;
 	padding-top: 50px;
@@ -85,4 +89,29 @@
 	background: none;
 	border: 2px solid #FFFFFF;
 	color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
+	.banner-down-page,
+    .banner-down-header,
+    .banner-down-header__title,
+    .banner-down-header__subtitle {
+        width: 100%;
+    }
+    .banner-down-header .banner-down-header__title {
+        font-size: 24px;
+    }
+    .banner-down-header__subtitle {
+        font-size: 14px;
+    }
+    .banner-down-header-button {
+        width: 318px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+	.banner-down-header-button {
+        width: 90%;
+    }
 }

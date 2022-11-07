@@ -55,3 +55,41 @@
 .media-icons a {
 	background-color: #F8EFEF;
 }
+
+@media screen and (max-width: 1150px) {
+	.media-page,
+	.media-about,
+	.media-about__title,
+	.media-about__subtitle,
+	.media-icons {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.media-page {
+		height: auto;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+	}
+	.media-about__title,
+	.media-about__subtitle,
+	.media-icons,
+	.media,
+	.media-about {
+		height: auto;
+	}
+	.media-icons {
+		padding-top: 10px;
+		}
+	.media-about__title,
+	.media-about__subtitle {
+		justify-content: center;
+		padding: 0 10px;
+		text-align: center;
+	}
+	.icons-item {
+		width: 90%;
+	}
+}

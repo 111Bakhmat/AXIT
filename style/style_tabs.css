@@ -1,52 +1,80 @@
-body {
-    margin: 0;
+.tab-page {
+    width: 1170px;
+    margin: 100px auto 0;
+    display: flex;
 }
 
 .container-tab {
-    width: 1170px;
-    /* height: 100vh; */
-    margin: 60px auto 0;
+    width: 700px;
 }
 
 .tab {
-    width: 1170px;
+    width: 700px;
     height: 40px;
-    /* border: 1px solid black; */
+    display: flex;
 }
 
-.tab .tab__one {
-    width: 203px;
+.tab__one {
+    width: 201px;
     height: 40px;
-    display: inline-block;
     border-top: 1px solid #C6CBCD;
     border-left: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
     border-radius: 5px 5px 0 0;
-    text-align: center;
-}
-
-span {
-    height: 40px;
-    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
 }
 
 .tab .tab__two {
-    width: 203px;
+    width: 184px;
     height: 40px;
-    display: inline-block;
     border-bottom: 1px solid #C6CBCD;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
 }
 
 .tab .tab__three {
-    width: 203px;
+    width: 184px;
     height: 40px;
-    display: inline-block;
     border-bottom: 1px solid #C6CBCD;
-    text-align: center;
-    padding-right: 559px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
 }
 
+.tab .tab__four {
+    width: 128px;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
 
 .text {
     width: 698px;
@@ -54,7 +82,6 @@ span {
     display: inline-block;
     border-left: 1px solid #C6CBCD;
     border-bottom: 1px solid #C6CBCD;
-    /* background-color: aqua; */
     vertical-align: top;
 }
 
@@ -86,21 +113,98 @@ span {
     width: 270px;
     height: 43px;
     margin: 0 0 0 100px;
-    padding-top: 15px;
+}
+
+.text__button__download {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #EC7979;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
-    text-align: center;
-    background-color: #EC7979;
+    cursor: pointer;
 }
+
 .image {
 width: 470px;
-height: 500px;
-padding-top: 2px;
-display: inline-block;
+height: 501px;
+margin-top: 40px;
+border-top: 1px solid #C6CBCD;
 border-bottom: 1px solid #C6CBCD;
 border-right: 1px solid #C6CBCD;
+}
+
+@media screen and (max-width: 1185px) {
+    .image__foto {
+        display: none;
+    }
+    .image {
+        border-top: none;
+        border-bottom: none;
+        border-right: none;
+        width: 0;
+        height: 0;
+        position: absolute;
+        }
+    .tab-page {
+        width: 700px;
+    }
+    .container-tab {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .container-tab .tab {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        border-right: 1px solid #C6CBCD;
+    }
+    .tab {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .tab .tab__three {
+        padding-right: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .tab-page {
+        width: 90%;
+        margin: 100px auto 0;
+    }
+    .text {
+        width: 100%;
+        height: auto;
+    }
+    .text__title {
+        width: 100%;
+        height: auto;
+        margin: 50px auto 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .text__subtitle {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 0 15px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .text__button {
+        width: 242px;
+        height: 50px;
+        margin: 20px auto;
+    }
 }

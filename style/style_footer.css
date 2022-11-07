@@ -1,5 +1,3 @@
-
-
 footer {
   width: 100%;
   height: 164px;
@@ -33,3 +31,17 @@ a {
   color: rgba(255, 255, 255, 0.5);
 }
 
+@media screen and (max-width: 1185px) {
+  .copyright {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .footer-icons {
+    width: auto;
+  }
+  .icons-item {
+    width: 90%;
+  }
+}
