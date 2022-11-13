@@ -77,7 +77,7 @@
 
 .customers-block-1__poligon, .customers-block-2__poligon, .customers-block-3__poligon {
     /* width: 370px; */
-    width: 100%;
+    width: 100px;
     height: 66px;
     position: relative;
     left: 70px;
@@ -167,5 +167,10 @@
         display: block;
         text-align: center;
         margin: 0 auto 30px;
+    }
+    .customers-block-1__job, .customers-block-2__job, .customers-block-3__job {
+        width: 150px;
+        margin-left: 0;
+        padding-left: 100px;
     }
 }

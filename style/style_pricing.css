@@ -59,6 +59,12 @@ body {
     align-items: flex-end;
 }
 
+.options-basic,
+.options-optima,
+.options-pro {
+    width: 370px;
+}
+
 .options-optima {
     align-self: flex-start;
     -webkit-box-shadow: 0px 3px 9px 0px rgba(34, 60, 80, 0.2);
@@ -67,7 +73,7 @@ body {
 }
 
 .options-basic__name, .options-optima__name, .options-pro__name {
-    width: 366px;
+    width: 100%;
     height: 56px;
     background: #333333;
     border: 2px solid #F5F5F5;
@@ -78,13 +84,14 @@ body {
     line-height: 33px;
     color: #FFFFFF;
     text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
 }
 
 .options-basic__price, .options-optima__price, .options-pro__price {
-    width: 366px;
+    width: 100%;
     height: 96px;
     background: #333333;
     border: 2px solid #F5F5F5;
@@ -97,10 +104,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .options-basic__free, .options-optima__free, .options-pro__free {
-    width: 366px;
+    width: 100%;
     height: 46px;
     background: #333333;
     border: 2px solid #F5F5F5;
@@ -113,10 +121,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .options-basic__space, .options-optima__space, .options-pro__space {
-    width: 366px;
+    width: 100%;
     height: 46px;
     background: #FFFFFF;
     border: 2px solid #F5F5F5;
@@ -129,6 +138,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1325px) {
@@ -159,5 +169,15 @@ body {
     }
     .options-optima {
         align-self: center;
+    }
+}
+@media screen and (max-width: 390px) {
+    .options-basic,
+    .options-optima,
+    .options-pro {
+    width: 95%;
+}
+    .box-item {
+        width: 100%;
     }
 }

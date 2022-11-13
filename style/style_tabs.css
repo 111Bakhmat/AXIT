@@ -175,6 +175,9 @@ border-right: 1px solid #C6CBCD;
     .tab .tab__three {
         padding-right: auto;
     }
+    /* .tab .tab__four {
+        width: auto;
+    } */
 }
 
 @media screen and (max-width: 700px) {

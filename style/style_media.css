@@ -79,6 +79,11 @@
 	.media,
 	.media-about {
 		height: auto;
+		width: 100%;
+	}
+	.media-about__title,
+	.media-about__subtitle {
+		box-sizing: border-box;
 	}
 	.media-icons {
 		padding-top: 10px;
